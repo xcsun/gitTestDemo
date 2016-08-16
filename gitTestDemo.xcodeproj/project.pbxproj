@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		5728A22B1D62BA8000FF1579 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5728A22A1D62BA8000FF1579 /* main.m */; };
 		5728A22E1D62BA8000FF1579 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5728A22D1D62BA8000FF1579 /* AppDelegate.m */; };
-		5728A2311D62BA8000FF1579 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5728A2301D62BA8000FF1579 /* ViewController.m */; };
-		5728A2341D62BA8000FF1579 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5728A2321D62BA8000FF1579 /* Main.storyboard */; };
 		5728A2361D62BA8000FF1579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5728A2351D62BA8000FF1579 /* Assets.xcassets */; };
 		5728A2391D62BA8000FF1579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5728A2371D62BA8000FF1579 /* LaunchScreen.storyboard */; };
 		5728A2441D62BA8000FF1579 /* gitTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5728A2431D62BA8000FF1579 /* gitTestDemoTests.m */; };
@@ -39,9 +37,6 @@
 		5728A22A1D62BA8000FF1579 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5728A22C1D62BA8000FF1579 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5728A22D1D62BA8000FF1579 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5728A22F1D62BA8000FF1579 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5728A2301D62BA8000FF1579 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5728A2331D62BA8000FF1579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5728A2351D62BA8000FF1579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5728A2381D62BA8000FF1579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5728A23A1D62BA8000FF1579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -103,9 +98,6 @@
 			children = (
 				5728A22C1D62BA8000FF1579 /* AppDelegate.h */,
 				5728A22D1D62BA8000FF1579 /* AppDelegate.m */,
-				5728A22F1D62BA8000FF1579 /* ViewController.h */,
-				5728A2301D62BA8000FF1579 /* ViewController.m */,
-				5728A2321D62BA8000FF1579 /* Main.storyboard */,
 				5728A2351D62BA8000FF1579 /* Assets.xcassets */,
 				5728A2371D62BA8000FF1579 /* LaunchScreen.storyboard */,
 				5728A23A1D62BA8000FF1579 /* Info.plist */,
@@ -245,7 +237,6 @@
 			files = (
 				5728A2391D62BA8000FF1579 /* LaunchScreen.storyboard in Resources */,
 				5728A2361D62BA8000FF1579 /* Assets.xcassets in Resources */,
-				5728A2341D62BA8000FF1579 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +261,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5728A2311D62BA8000FF1579 /* ViewController.m in Sources */,
 				5728A22E1D62BA8000FF1579 /* AppDelegate.m in Sources */,
 				5728A22B1D62BA8000FF1579 /* main.m in Sources */,
 			);
@@ -308,14 +298,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5728A2321D62BA8000FF1579 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5728A2331D62BA8000FF1579 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5728A2371D62BA8000FF1579 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -498,6 +480,7 @@
 				5728A2551D62BA8000FF1579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5728A2561D62BA8000FF1579 /* Build configuration list for PBXNativeTarget "gitTestDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +489,7 @@
 				5728A2581D62BA8000FF1579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5728A2591D62BA8000FF1579 /* Build configuration list for PBXNativeTarget "gitTestDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +498,7 @@
 				5728A25B1D62BA8000FF1579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
